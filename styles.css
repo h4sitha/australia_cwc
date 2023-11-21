@@ -1,0 +1,140 @@
+body {
+    text-align: center;
+    font-family: 'Love Ya Like A Sister';
+    background: linear-gradient(#B2B000, #096000);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 10px rgba(0,0,0,0.2);
+    color: #096000;
+}
+
+#aus2023-img {
+    width: 500px;
+    border: 6px solid #096000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#bday-age {;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+.underline {
+    border-bottom: 10px solid #096000
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+    color: #D8D8D8;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 350px;
+    height: 250px;
+    border: 6px solid #096000;
+    background: #074800;
+    border-radius: 10px;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #B2B000;
+}
+
+#gift-img-2015:hover {
+    background-image: url("images/Australia2015.jfif");
+    background-size: cover;
+    background-position: center;
+    color: black;
+    font-size: 1px;
+}
+
+#gift-img-2007:hover {
+    background-image: url("images/Australia2007.webp");
+    background-size: cover;
+    background-position: center;
+    color: black;
+    font-size: 1px;
+}
+
+#gift-img-2003:hover {
+    background-image: url("images/Australia2003.webp");
+    background-size: cover;
+    background-position: center;
+    color: black;
+    font-size: 1px;
+}
+
+#gift-img-1999:hover {
+    background-image: url("images/Australia1999.webp");
+    background-size: cover;
+    background-position: center;
+    color: black;
+    font-size: 1px;
+}
+
+#gift-img-1987:hover {
+    background-image: url("images/Australia1987.jpg");
+    background-size: cover;
+    background-position: center;
+    color: black;
+    font-size: 1px;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+    background-size: cover;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+    color: #D8D8D8;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
